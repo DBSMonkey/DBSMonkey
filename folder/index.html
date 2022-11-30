@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>Korean Wave</title>
+        <meta name="description" content="최근 뜨거운 영화, 음악, 드라마 등의 여러 분야에서 세계 시장을 휩쓸고 있는 한류를 보여준다">
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist.ress,min.class">
+        <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+        <style>
+            @charset "UTF-8";
+            html {
+                font-size: 100%;
+            }
+            body {
+                font-family: "나눔고딕", NanumGothic, "맑은고딕", MalgunGothic, "Apple SD Gothic Neo", sans-serif;
+                line-height: 1.7;
+                color: black;
+            }
+            a {
+                text-decoration: none;
+            }
+            img {
+                max-width: 100%;
+            }
+            .big-bg {
+                background-size: cover;
+                background-position: center top;
+                background-repeat: no-repeat;
+            }
+            #home {
+                background-image: url(images/background.jpg);
+                min-height: 100vh;
+            }
+            #home .page-title{
+                text-transform: none;
+            }
+            .logo {
+                width: 220px;
+                margin-top: 10px;
+            }
+            .main-nav {
+                display: flex;
+                font-size: 1.25rem;
+                text-transform: uppercase;
+                margin-top: 34px;
+                list-style: none;
+            }
+            .main-nav li {
+                margin-left: 36px;
+            }
+            .main-nav a {
+                color: white;
+            }
+            .main-nav a:hover {
+                color: black;
+            }
+            .page-header {
+                display: flex;
+                justify-content: space-between;
+            }    
+            .wrapper {
+                max-width: 1100px;
+                margin: 0 auto;
+                padding: 0 4%;
+            }
+            .home-content {
+                text-align: center;
+                margin-top: 10%;
+            }
+            .home-content p {
+                font-size: 1.125rem;
+                margin: 10px 0 42px;
+            }
+            .page-title {
+                font-size: 5rem;
+                font-family: 'Philosopher', serif;
+                text-transform: uppercase;
+                font-weight: normal;
+            }
+            .button {
+                font-size: 1.375rem;
+                background: blue;
+                color: white;
+                border-radius: 5px;
+                padding: 18px 32px;
+            }
+            .button:hover {
+                background: purple;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="home" class="big-bg">
+            <header class="page-header wrapper">
+                <h1><a href="index.html"><img class="logo" src="images/Korean_Wave.png" alt="로고"></a></h1>
+                <nav> 
+                    <ul class="main-nav">
+                        <li><a herf="drama.html">Drama</a></li>
+                        <li><a herf="K-Pop.html">K-Pop</a></li>
+                        <li><a herf="Movie.html">Movie</a></li>
+                        <li><a herf="Food.html">Food</a></li>
+                    </ul>
+                </nav>
+            </header>
+            
+            <div class="home-content wrapper">
+                <h2 class="page-title"> 세계를 휩쓰는 한류</h2>
+                <p>영화부터 음악, 드라마, 음식까지 세계로 뻗어나가는 K-Culture</p>
+                <a class="button" href="More.html">자세히 알아보기</a>
+            </div>
+        </div>
+    </body>
+
+</html>
